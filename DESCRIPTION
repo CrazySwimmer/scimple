@@ -1,11 +1,11 @@
 Package: scimple
 Title: Tidy Simultaneous Confidence Intervals for Multinomial Proportions
-Version: 0.1.0
+Version: 0.2.0
 Encoding: UTF-8
 Authors@R: c(
       person("Bob", "Rudis", role = c("aut", "cre"), email = "bob@rud.is"),
       person("M", "Subbiah", role = c("aut"), comment = c("Original package author")),
-      person("Danilo", "Zocco", role = c("ctd"))
+      person("Danilo", "Zocco", role = c("ctb"))
     )
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Methods for obtaining simultaneous confidence intervals for multinomial 
@@ -22,7 +22,6 @@ License: GPL-2
 URL: https://github.com/hrbrmstr/scimple
 BugReports: https://github.com/hrbrmstr/scimple/issues
 LazyData: true
-Suggests: testthat,
-    covr
-Imports: dplyr, tibble, stats, purrr
-RoxygenNote: 6.0.1
+Suggests: testthat, covr
+Imports: stats
+RoxygenNote: 7.1.0
